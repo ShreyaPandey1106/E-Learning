@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+.hero{
+    height: 120vh;
+    background-image: url(./IMAGES/imageedit_8_8960822609.png);
+    padding: 1% 5% 2% 5%;
+}
+.block{
+    display: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    height: 50px;
+}
+.navlinks{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bborder{
+    border-bottom: 2px solid white;
+}
+/* text-box */
+.text
+{
+    margin: 10% 0% 0% 7%;
+}
+.text h1{
+    font-size: 70px;
+}
+.inspire{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+.inspire img{
+    height: 30px;
+}
+.know{
+    margin-bottom: 5%;
+    display: flex;
+}
+.pink{
+    background: -webkit-linear-gradient(#eee, rgb(237, 4, 179));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+.try{
+    width: 10%;
+}
+.learn{
+    margin-left: 3%;
+    background: none;
+    background-color: none;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* CSS */
+.button-1 {
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+@media(max-width:768px)
+{
+    .block{
+        display: block;
+    }
+    .navlinks{
+        display:none;
+    }
+    .hero{
+        height: auto;
+        padding: 2% 0% 2% 0%;
+        background-image: url(./IMAGES/sl_0210121_40570_34.jpg);
+        background-size: cover;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        height: 60vh;
+        background-image: url(./IMAGES/imageedit_8_8960822609.png);
+        background-size: cover;
+        background-position-x: right;
+    }
+    .text{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .text h1{
+        width: fit-content;
+    }
+    .try{
+        width: 30%;
+    }
+    .inspire{
+        width: 100%;
+        justify-content: center;
+    }
+   
+    
+}
